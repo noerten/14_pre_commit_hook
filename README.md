@@ -1,6 +1,11 @@
 # Quadratic Equations Solver
 
-[TODO. There will be project description]
+You can use this script for solving quadratic equations. In addition there are tests and pre-commit hook (after trying to commit it runs tests and changes can be commited only if there are no errors).
+
+## How To Use:
+
+Run the script.
+In order to use pre-commit hook you should move it to `.git\hooks`
 
 # Project Goals
 

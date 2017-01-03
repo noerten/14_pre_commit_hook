@@ -1,0 +1,10 @@
+#!/bin/bash
+
+python tests.py
+exit_code=$?
+if [ $exit_code = 0 ]; then
+	echo "All tests  were run correctly. Committting..."
+else
+	echo "There were some problems running tests.py. Commit was declined"
+  exit 1
+fi
